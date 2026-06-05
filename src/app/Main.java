@@ -21,15 +21,15 @@ public class Main {
         Direccion direccion2 = new Direccion("Central Oriente 966", "Santiago de Chile");
         Operador operador2 = new Operador("PatagonTours", "Senderismo");
         Cliente cliente2 = new Cliente("Ignacia Castro", 22, "21.099.066-9", direccion2, "A02", operador2);
-        Empleado empleado2 = new Empleado("José Martinez", 26, "20.676.259-0", direccion0, "Senderismo", "AM", "Español, Inglés, Portugués");
+        Empleado empleado2 = new Empleado("José Martinez", 26, "20.676.259-0", direccion0, "Senderismo", "AM", "Español, Inglés");
 
         System.out.println(cliente2);
         System.out.println(empleado2);
 
-        Direccion direccion3 = new Direccion("Central Oriente 966", "Santiago de Chile");
-        Operador operador3 = new Operador("PatagonTours", "Senderismo");
-        Cliente cliente3 = new Cliente("Fernanda Castro", 27, "19.999.066-9", direccion2, "A03", operador2);
-        Empleado empleado3 = new Empleado("José Martinez", 26, "20.676.259-0", direccion0, "Senderismo", "AM", "Español, Inglés, Portugués");
+        Direccion direccion3 = new Direccion("Las Tinajas 34", "Santiago de Chile");
+        Operador operador3 = new Operador("PatagonTours", "Hotelería");
+        Cliente cliente3 = new Cliente("Fernanda Castro", 27, "19.999.066-9", direccion3, "A03", operador3);
+        Empleado empleado3 = new Empleado("Gabriela Soto", 26, "20.676.259-0", direccion0, "Turismo y hotelería", "PM", "Español, Inglés, Portugués");
 
         System.out.println(cliente3);
         System.out.println(empleado3);
